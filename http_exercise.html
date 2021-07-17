@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>http_exercise.html</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="your-name" />
+    <meta name="description" content="http_exercise.html" />
+</head>
+
+<body>
+    <p>1.What is the Hypertext Transfer Protocol (HTTP)<br><br>
+
+        <p>Hypertext Transfer Protocol(HTTP) is an application-layer protocol for transmitting hypermedia documents, such as HTML which was designed for communication between web browsers and web servers.
+        </p>
+        <hr> 2.Why is HTTP called a stateless protocol?<br><br>
+        <p>2HTTP is called a stateless protocol becuase it has a communication protocol where server does not keep any data(state) between two requests
+        </p>
+        <hr> 3.Describe the three phases of establishing a session using client-server protocols such as HTTP<br><br>
+        <p>
+            The three phases of establishing a session using client-server protocols such as HTTP are:1.The client establishes a TCP connection (or the appropriate connection if the transport layer is not TCP)2.The client sends its request, and waits for the answer.3.
+            The server processes the request, sending back its answer, providing a status code and appropriate data.
+
+        </p>
+        <hr> 4.Describe the parameters on a get and post request.<br><br>
+        <p>GET parameters are used when a client, such as a browser, requests a particular resource from a web server using the HTTP protocol.POST parameter is used to send data to a server to create/update a resource from a web server using the HTTP protocol.</p>
+
+
+        <hr> 5.What are the HTTP response status code and What do the HTTP status codes, 200, and 404 indicate?<br><br> HTTP response status codes are codes that indicate whether a specific HTTP request has been successfully completed or not. HTTP status
+        code 200 falls under successful request that indicates successful response or OK and HTTP status code 404 falls under client error that indicates not found or server cannot find the request resource.</p>
+
+    <hr> 6.What are HTTP cookies? Give an example.<br><br> An HTTP cookie (web cookie, browser cookie) is a small piece of data that a server sends to the user's web browser. The browser may store it and send it back with later requests to the same server.
+    Typically, it's used to tell if two requests came from the same browser — keeping a user logged-in.Example it remembers stateful information for the stateless HTTP protocol.
+
+    <hr> 7.Why are cookies a security issue?
+    <br><br> Cookies are sequrity issues because it is understood that all te cookie values and informations are visible to and can be changes by the end user (which can be changes into anything by anyone). Ex: Cookie available to JavaScript can be stolen
+    through XSS.
+
+    <hr> 8.Describe session hijacking and XSS<br><br> Session hijackingis an attack where a user session is taken over by an attacker. A session starts when you log into a service, for example your banking application, and ends when you log out. The attack
+    relies on the attacker’s knowledge of your session cookie, so it is also called cookie hijacking or cookie side-jacking Cross-site scripting (XSS) is a security exploit which allows an attacker to inject into a website malicious client-side code.
+    This code is executed by the victims and lets the attackers bypass access controls and impersonate users.
+
+    <hr> 9.Describe Cross-site request forgery(CSRF)<br><br> CSRF (sometimes also called XSRF) is a related class of attack. The attacker causes the user's browser to perform a request to the website's backend without the user's consent or knowledge.
+
+    <hr> 10.What are Cross-site HTTP requests (CORS) and what requests use CORS?</p>
+    Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any other origins (domain, scheme, or port) than its own from which a browser should permit loading of resources. Invocations of the XMLHttpRequest
+    or Fetch APIs,Web Fonts (for cross-domain font usage in @font-face within CSS),WebGL textures, Images/video frames drawn to a canvas using drawImage(), CSS Shapes from images there requests use CORS.
+</body>
+
+</html>
